@@ -1,0 +1,4 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Phenacomys	0.0	0.0	48.85261	-78.643229	0.0	0.0	0.0021
+Phenacomys	0.0	0.0	48.294391999999995	-79.215901	0.0	0.0	0.0021
+Phenacomys	0.0	0.0	51.044849	-118.125	0.0	0.0	0.0021

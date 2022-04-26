@@ -1,0 +1,6 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Poaceae	10.5	8.5	42.75	-98.0	Commelinids	10.238335776261595	9.438
+Poaceae	10.5	8.5	42.75	-98.0	Commelinids	9.075391923942123	9.438
+Poaceae	10.5	8.5	42.75	-98.0	Commelinids	8.61585808836411	9.438
+Poaceae	10.5	8.5	42.75	-98.0	Commelinids	10.208854038381274	9.438
+Poaceae	9.9	9.9	40.454444	-85.791944	Commelinids	9.9	9.438

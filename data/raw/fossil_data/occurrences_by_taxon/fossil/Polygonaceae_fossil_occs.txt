@@ -1,0 +1,6 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Polygonaceae	1.81	0.7809999999999999	35.359722	-76.8175	Eudi_Non_Ro-Aster	1.4429943485546797	1.287
+Polygonaceae	0.126	0.01	49.7177	-124.97399999999999	Eudi_Non_Ro-Aster	0.01480514269587481	0.07035
+Polygonaceae	9.9	9.9	40.454444	-85.791944	Eudi_Non_Ro-Aster	9.9	9.438
+Polygonaceae	9.9	9.9	40.454444	-85.791944	Eudi_Non_Ro-Aster	9.9	9.438
+Polygonaceae	0.01346	0.01346	36.9575	-81.76916700000002	Eudi_Non_Ro-Aster	0.01346	0.07035

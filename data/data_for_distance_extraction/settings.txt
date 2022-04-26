@@ -1,0 +1,13 @@
+cropping_window: [-180, -52, 25, 80]
+out_path: data/data_for_distance_extraction
+reduce_mammals_to_genus: True
+max_age_MA: 30
+mammal_fossil_path: data/raw/fossil_data/mammal_fossils_joined_databases_cleaned.txt
+plant_macrofossil_path: data/raw/fossil_data/angiosperm_cenozoic_database.txt
+aquatic_mammals_file: data/raw/fossil_data/aquatic_mammals.txt
+selected_continent: north_america
+select_genera_evenly_in_space_time: False
+mammals: True
+plants: True
+n_mammal_taxa: 65
+n_plant_taxa: 35

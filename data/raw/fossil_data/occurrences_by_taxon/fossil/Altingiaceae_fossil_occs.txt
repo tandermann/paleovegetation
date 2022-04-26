@@ -1,0 +1,5 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Altingiaceae	23.03	20.43	75.411111	-89.430278	Eudi_Non_Ro-Aster	21.787229717456913	21.735
+Altingiaceae	1.81	0.7809999999999999	35.359722	-76.8175	Eudi_Non_Ro-Aster	1.6936143488396969	1.287
+Altingiaceae	20.43	15.97	32.5725	-81.358056	Eudi_Non_Ro-Aster	16.118276647219215	18.205000000000002
+Altingiaceae	27.82	23.03	44.77	-122.62	Asterids	25.98891524049587	25.425

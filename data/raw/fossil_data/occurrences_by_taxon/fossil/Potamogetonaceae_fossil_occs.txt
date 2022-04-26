@@ -1,0 +1,5 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Potamogetonaceae	23.03	20.43	75.411111	-89.430278	Mono_Non_Comme	22.372355628088442	21.735
+Potamogetonaceae	1.81	0.7809999999999999	35.359722	-76.8175	Mono_Non_Comme	1.724332643203771	1.287
+Potamogetonaceae	9.9	9.9	40.454444	-85.791944	Mono_Non_Comme	9.9	9.438
+Potamogetonaceae	0.01346	0.01346	36.9575	-81.76916700000002	Mono_Non_Comme	0.01346	0.07035

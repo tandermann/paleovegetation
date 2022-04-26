@@ -1,0 +1,5 @@
+species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
+Vitaceae	0.126	0.01	38.086110999999995	-79.656944	Rosids	0.07596532699928132	0.07035
+Vitaceae	9.9	9.9	40.454444	-85.791944	Rosids	9.9	9.438
+Vitaceae	0.4	0.4	27.63833300000001	-80.3975	Rosids	0.4	0.4515
+Vitaceae	0.4	0.4	27.63833300000001	-80.3975	Rosids	0.4	0.4515
