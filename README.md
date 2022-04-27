@@ -39,13 +39,13 @@ ___
 
 ## Extract distances and features from raw data
 
-The first step will be to prepare the data for training of our model.
+The first step will be to prepare the data for training of our model. These are the raw data that we have at hand:
 
-- The raw data includes **vegetation points** (current: `tutorial_data/current_vegetation.txt`, and past: `tutorial_data/paleo_vegetation.txt`). These data consist of spatial coordinates, an associated time (in case of paleovegetation), and the vegetation interpretation (`0` for closed, `1` for open).
+- **Vegetation points** (current: `tutorial_data/current_vegetation.txt`, and past: `tutorial_data/paleo_vegetation.txt`). These data consist of spatial coordinates, an associated time (in case of paleovegetation), and the vegetation interpretation (`0` for closed, `1` for open).
 
-- Further, we have coordinates and dates of **fossil occurrences** of selected mammal and plant taxa, as well as available data on their **current occurrences** (`tutorial_data/fossil_and_current_occurrences.txt`).
+- Coordinates and dates of **fossil occurrences** of selected mammal and plant taxa, as well as available data on their **current occurrences** (`tutorial_data/fossil_and_current_occurrences.txt`).
 
-- Finally, we have data on **additional predictors**, such as global temperature (`tutorial_data/global_average_temperature.txt`), global CO2 content (hard-coded in script `tutorial_1_compile_distances_and_abiotic_features.py`), and elevation (`tutorial_data/elevation`). All of these data are available through time (last 30 million years).
+- **Additional predictors**, such as global temperature (`tutorial_data/global_average_temperature.txt`), global CO2 content (hard-coded in script `tutorial_1_compile_distances_and_abiotic_features.py`), and elevation (`tutorial_data/elevation`). All of these data are available through time (last 30 million years).
 
 The following script will extract for each vegetation point the distance to the spatially closest fossil occurrence of each taxon for each geological epoch. These distances are part of the input for training our BNN model. Additionally, the script will also export the corresponding temporal distances, as well as extracting additional features (climate, elevation, coordinates, etc.) for each vegetation point. The output will be stored in the folder `tutorial_data/training_data`.
 
@@ -55,6 +55,7 @@ For this tutorial we are only extracting this information for a subset of the av
 python tutorial_1_compile_distances_and_abiotic_features.py
 ```
 
+The output will be stored in the `tutorial/training_data` folder.
 ___
 
 ## Train BNN model
@@ -68,7 +69,7 @@ The model can be trained by running the following command. Training a BNN model 
 python tutorial_2_train_bnn_paleoveg.py
 ```
 
-If you have the time and patience, let your model training run for a few hours before continuing with the tutorial. Otherwise you can use a pretrained model that is stored at `tutorial/precompiled_data/pretrained_model` for the next steps.
+The model that is being trianed here will be stored at `tutorial/trained_model`. If you have the time and patience, let your model training run for a few hours before continuing with the tutorial. Otherwise you can use a pretrained model that is stored at `tutorial/precompiled_data/pretrained_model` for the next steps.
 
 ___
 
@@ -121,6 +122,7 @@ python tutorial_4_predict_vegetation_map.py tutorial/precompiled_data/compiled_d
 
 The script will plot the predicted vegetation labels for all points, producing a vegetation map (`tutorial/model_predictions/current_map_predicted_labels.pdf`).
 
+### Current vegetation map - predicted
 <img src="https://raw.githubusercontent.com/tandermann/paleovegetation/master/tutorial/precompiled_data/current_map_predicted_labels.png" title="plot" width="800"/>
 
 
@@ -131,6 +133,7 @@ unzip tutorial/precompiled_data/compiled_data_20MA_map.zip -d tutorial/precompil
 python tutorial_4_predict_vegetation_map.py tutorial/precompiled_data/compiled_data_20MA_map
 ```
 
+### Vegetation map 20 Ma - predicted
 <img src="https://raw.githubusercontent.com/tandermann/paleovegetation/master/tutorial/precompiled_data/20MA_map_predicted_labels.png" title="plot" width="800"/>
 
 Note that in this tutorial we have only used 80% of the available data, not utilizing a good portion of the precious paleovegetation data we have copmiled for this project. In the published manuscript, we avoided this loss of data by applying the approach of cross-validation, training several models while rotating through all available data. The averaged test accuracies in the manuscript are therefore based on all available data, while reflecting the ability of the modle to predict unseen vegetation labels. We then train one final production model using all data at once and make the predictions with this fully trained model.
