@@ -121,6 +121,8 @@ python tutorial_4_predict_vegetation_map.py tutorial/precompiled_data/compiled_d
 
 The script will plot the predicted vegetation labels for all points, producing a vegetation map (`tutorial/model_predictions/current_map_predicted_labels.pdf`).
 
+<img src="https://raw.githubusercontent.com/tandermann/paleovegetation/master/tutorial/precompiled_data/current_map_predicted_labels.png" title="plot" width="1200"/>
+
 
 Similarly, we can also predict and plot vegetation for points in the past. Here we provide a dataset for predicting the vegetation map of North America 20 million years ago:
 
@@ -128,6 +130,8 @@ Similarly, we can also predict and plot vegetation for points in the past. Here 
 unzip tutorial/precompiled_data/compiled_data_20MA_map.zip -d tutorial/precompiled_data/
 python tutorial_4_predict_vegetation_map.py tutorial/precompiled_data/compiled_data_20MA_map
 ```
+
+<img src="https://raw.githubusercontent.com/tandermann/paleovegetation/master/tutorial/precompiled_data/20MA_map_predicted_labels.png" title="plot" width="1200"/>
 
 Note that in this tutorial we have only used 80% of the available data, not utilizing a good portion of the precious paleovegetation data we have copmiled for this project. In the published manuscript, we avoided this loss of data by applying the approach of cross-validation, training several models while rotating through all available data. The averaged test accuracies in the manuscript are therefore based on all available data, while reflecting the ability of the modle to predict unseen vegetation labels. We then train one final production model using all data at once and make the predictions with this fully trained model.
 
