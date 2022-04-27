@@ -1,4 +1,0 @@
-species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
-Oryzomys	0.0	0.0	28.025895000000002	-97.046677	0.0	0.0	0.0021
-Oryzomys	0.0	0.0	30.44342	-88.550175	0.0	0.0	0.0021
-Oryzomys	0.0	0.0	30.373977000000004	-88.708683	0.0	0.0	0.0021

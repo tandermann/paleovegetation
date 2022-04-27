@@ -51,13 +51,17 @@ def select_train_and_test_set(time_stamp_array,seed,wd,testsize=0.1,equal_paleo_
     return [train_indices,test_indices]
 
 
-def rescale_abiotic_features(features):
-    scale_min = np.array([-180., 25., 0., 0.02, -47.57, -4880, 1.06, 297.6])
-    scale_max = np.array([-52., 80., 30., 18.69, 41.03, 2680, 10.12, 725.83])
+def rescale_abiotic_features(features,feature_set='all'):
+    if feature_set=='public': # without precipitation and temperature data
+        scale_min = np.array([-180., 25., 0., -4880, 1.06, 297.6])
+        scale_max = np.array([-52., 80., 30., 2680, 10.12, 725.83])
+    else:
+        scale_min = np.array([-180., 25., 0., 0.02, -47.57, -4880, 1.06, 297.6])
+        scale_max = np.array([-52., 80., 30., 18.69, 41.03, 2680, 10.12, 725.83])
     scaled_features = (features-scale_min)/(scale_max-scale_min)
     return scaled_features
 
-    
+
 def make_colormap(seq):
     """Return a LinearSegmentedColormap
     seq: a sequence of floats and RGB-tuples. The floats should be increasing

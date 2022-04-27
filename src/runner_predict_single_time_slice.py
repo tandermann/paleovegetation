@@ -47,7 +47,7 @@ except:
     precipiation_perturbation = 0.0
     temperature_perturbation = 0.0
     elevation_perturbation = 0.0
-    n_burnin = 990
+    n_burnin = 500
     outdir = os.path.join(os.path.dirname(weight_pickle), 'time_slice_predictions')
     print('Falling back to default settings.')
 

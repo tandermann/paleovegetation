@@ -1,5 +1,0 @@
-species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
-Lasionycteris	4.9	2.5	32.518611	-96.380833	Vespertilionidae	4.471205261730748	4.4665
-Lasionycteris	0.126	0.0	37.334721	-80.67916899999999	Vespertilionidae	0.12392432037140667	0.07035
-Lasionycteris	0.126	0.0117	35.816666	-94.633331	Vespertilionidae	0.04358370458398903	0.07035
-Lasionycteris	4.9	1.8	32.716667	-100.916664	Vespertilionidae	3.227049644751526	3.09

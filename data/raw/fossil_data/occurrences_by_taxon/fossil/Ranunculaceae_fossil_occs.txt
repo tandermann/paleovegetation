@@ -1,7 +1,0 @@
-species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
-Ranunculaceae	0.126	0.01	42.385556	-84.748333	Eudi_Non_Ro-Aster	0.09887610064790872	0.07035
-Ranunculaceae	1.81	0.7809999999999999	35.359722	-76.8175	Eudi_Non_Ro-Aster	1.0130119942492621	1.287
-Ranunculaceae	1.81	0.7809999999999999	35.359722	-76.8175	Eudi_Non_Ro-Aster	0.8765562063714964	1.287
-Ranunculaceae	23.03	23.03	44.866667	-113.016667	Eudi_Non_Ro-Aster	23.03	25.425
-Ranunculaceae	0.126	0.01	42.12	-85.906667	Eudi_Non_Ro-Aster	0.06428252604661043	0.07035
-Ranunculaceae	0.01346	0.01346	36.9575	-81.76916700000002	Eudi_Non_Ro-Aster	0.01346	0.07035

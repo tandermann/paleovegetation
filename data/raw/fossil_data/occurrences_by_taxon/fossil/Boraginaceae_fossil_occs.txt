@@ -1,5 +1,0 @@
-species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
-Boraginaceae	10.5	8.5	42.75	-98.0	Unplaced	8.9464599416109	9.438
-Boraginaceae	10.5	8.5	42.75	-98.0	Unplaced	8.509974994132053	9.438
-Boraginaceae	10.5	8.5	42.75	-98.0	Unplaced	9.915893803919463	9.438
-Boraginaceae	19.1	17.38	42.83	-124.55	Unplaced	17.59491237901048	18.205000000000002

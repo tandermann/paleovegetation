@@ -1,6 +1,0 @@
-species	max_age	min_age	lat	lon	family	mean_age	rounded_ages
-Anacardiaceae	23.03	23.03	44.866667	-113.016667	Rosids	23.03	25.425
-Anacardiaceae	23.03	23.03	44.866667	-113.016667	Rosids	23.03	25.425
-Anacardiaceae	23.03	23.03	44.866667	-113.016667	Rosids	23.03	25.425
-Anacardiaceae	23.03	23.03	44.866667	-113.016667	Rosids	23.03	25.425
-Anacardiaceae	15.97	11.61	36.139722	-120.359167	Rosids	15.461886498932946	14.895
