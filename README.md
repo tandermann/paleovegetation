@@ -28,7 +28,7 @@ python -m pip install https://github.com/dsilvestro/npBNN/archive/refs/tags/0.1.
 ___
 ## Set up data and code
 
-1. Download this GitHub repo ([download link](https://github.com/tandermann/paleovegetation/archive/refs/heads/master.zip))
+1. Download this GitHub repo (~270 MB, [download link](https://github.com/tandermann/paleovegetation/archive/refs/heads/master.zip))
 2. Find the downloaded zip-archive in your downloads folder and move it to your working directory (e.g., your Desktop)
 3. Unzip the directory
 4. Open your command line app (**Mac** and **Linux** users can just use the native Terminal app, but **Windows** users need to make sure to use the conda command prompt that should install together with miniconda)
