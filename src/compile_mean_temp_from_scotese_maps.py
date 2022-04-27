@@ -3,12 +3,12 @@ import numpy as np
 import os,glob
 import matplotlib.pyplot as plt
 
-global_temp_path = '/Users/tobiasandermann/GitHub/feature_gen_paleoveg/data/raw/climatic_data/global_average_temperature.txt'
+global_temp_path = 'data/raw/climatic_data/global_average_temperature.txt'
 global_temp_data = pd.read_csv(global_temp_path,sep='\t').values.T
 global_temp_data = global_temp_data[:,:301]
 global_temp_data[1,:] = global_temp_data[1,:]-global_temp_data[1,0]
 
-data_path = '/Users/tobiasandermann/GitHub/feature_gen_paleoveg/data/raw/climatic_data/temperature'
+data_path = 'data/raw/climatic_data/temperature'
 file_list = glob.glob(os.path.join(data_path,'*.txt'))
 age_temp_dict = {}
 max_lat = 90
